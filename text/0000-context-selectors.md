@@ -21,7 +21,7 @@ let App = ({ index, string }) => {
     <Context.Provider value={string}>
       <Foo index={index} />
     </Context.Provider>
-
+  )
 }
 
 let Foo = React.memo(({ index }) => {
